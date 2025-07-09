@@ -1,0 +1,78 @@
+body {
+    background-color: #f0f0f0; 
+}
+/* Header */
+.AgendaContacto {
+    width: 100%;
+    background-color: #3e85b5;
+    padding: 20px 0;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 22px;
+    color: #000;
+}
+.formulario {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffffcc; /* fondo blanco semi-transparente */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los inputs */
+.formulario input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 180px;
+    transition: border-color 0.2s ease;
+    color: black;
+    background-color:#f0f0f0 ;
+    gap:30px
+}
+
+.formulario input:focus {
+    border-color: #3e85b5;
+    outline: none;
+}
+
+/* Botón "Añadir Contacto" */
+.formulario button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3e85b5;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.formulario button:hover {
+    background-color: #2f6d99;
+}
+/* Sección de contactos */
+#Contactos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Tarjetas individuales */
+.contact-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    color: black;
+    font-family: Arial, sans-serif;
+}
